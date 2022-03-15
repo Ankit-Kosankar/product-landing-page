@@ -1,3 +1,69 @@
-iframe{
-    background-color: blueviolet;
+*{
+    box-sizing: border-box;
 }
+/*
+==================================
+This the first Header Section where we have a navbar inside 
+aligned using flex-box
+==================================
+
+*/
+#header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-bar{
+    margin: 5px;
+    padding:5px;
+    display: flex;
+    align-items: center;
+}
+
+
+#nav-bar a{
+    margin: 0px 10px;
+}
+
+.container{
+    background-color: #007fff;
+}
+
+
+/*
+========================
+Aligning the Infor-section div which is second section fo the project
+Using flex-box centering things here
+=======================
+*/
+.info-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container{
+    width: 40%;
+}
+
+.form-container form{
+    display: flex;
+    flex-direction: column;
+}
+.form-container form label{
+    text-align: center;
+}
+.form-container form label,input{
+    margin-top: 10px;
+}
+
+/*
+=========================================
+Third section for Vide dont have a clue right now XD
+=========================================
+*/
+
+/*Features Section here*/
+
+
+
