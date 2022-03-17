@@ -73,7 +73,11 @@ Third section for Vide dont have a clue right now XD
 }
 
 
-/*Features Section here*/
+/*
+======================
+Features Section here
+======================
+*/
 
 #features{
     width: 100%;
@@ -91,4 +95,58 @@ Third section for Vide dont have a clue right now XD
     width: 50%;
 }
 
+/*
+============================================
+Pricing Card Section
+============================================
+*/
+.pricing{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
 
+.card-container{
+    display: flex;
+    max-width: 80%;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    width: 60%;
+    margin:0px 50px;
+    border: 5px solid beige;
+    border-radius: 10%; 
+}
+
+.pricing .card-container .card ol{
+    padding-left:15px;
+}
+
+.pricing .card-container .card h4{
+    text-align: center;
+}
+
+.pricing .card-container .card h3{
+    padding: 0px;
+}
+
+/*
+===================================
+Footer Section
+==================================
+*/
+footer{
+ display: flex;
+ align-self: center;
+ justify-content: flex-end;
+ width: 80%;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
