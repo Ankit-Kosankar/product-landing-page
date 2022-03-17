@@ -8,6 +8,10 @@ aligned using flex-box
 ==================================
 
 */
+body{
+    display: grid;
+}
+
 #header{
     display: flex;
     justify-content: space-between;
@@ -25,8 +29,9 @@ aligned using flex-box
     margin: 0px 10px;
 }
 
-.container{
+.nav-container{
     background-color: #007fff;
+    position: sticky;
 }
 
 
@@ -63,7 +68,27 @@ Third section for Vide dont have a clue right now XD
 =========================================
 */
 
+.video-section{
+    width: 80%;
+}
+
+
 /*Features Section here*/
 
+#features{
+    width: 100%;
+    align-self: center;
+}
+
+
+.grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.desc{
+    width: 50%;
+}
 
 
