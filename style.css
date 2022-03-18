@@ -31,9 +31,19 @@ body{
 
 .nav-container{
     background-color: #007fff;
-    position: sticky;
+    position: fixed;
+    width: 100%;
 }
 
+.fixed-container{
+    position: fixed;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
 
 /*
 ========================
@@ -45,10 +55,12 @@ Using flex-box centering things here
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 100px;
 }
 
 .form-container{
     width: 40%;
+    font-size: 1.5em;
 }
 
 .form-container form{
@@ -57,19 +69,31 @@ Using flex-box centering things here
 }
 .form-container form label{
     text-align: center;
+    font-size: 40px;
 }
 .form-container form label,input{
     margin-top: 10px;
 }
 
+.form-container form #submit{
+    width: 40%;
+    align-self: center;
+}
+
 /*
 =========================================
-Third section for Vide dont have a clue right now XD
+Third section for Vide0 dont have a clue right now XD
 =========================================
 */
 
 .video-section{
-    width: 80%;
+   display: flex;
+   justify-content: center;
+}
+
+#video{
+    margin: 30px;
+    width: 400px;
 }
 
 
@@ -95,6 +119,14 @@ Features Section here
     width: 50%;
 }
 
+.icon{
+    font-size: 45px;
+}
+
+.desc{
+    margin-left: 40px;
+    font-size: 1.1em;
+}
 /*
 ============================================
 Pricing Card Section
@@ -115,11 +147,13 @@ Pricing Card Section
 .card{
     display: flex;
     flex-direction: column;
-    padding: 10px 30px;
+    padding: 10px 60px;
     width: 60%;
     margin:0px 50px;
+    margin-top: 40px;
     border: 5px solid beige;
     border-radius: 10%; 
+    font-size: 1.1em;
 }
 
 .pricing .card-container .card ol{
@@ -134,19 +168,29 @@ Pricing Card Section
     padding: 0px;
 }
 
+.form-container form label, input{
+    font-size: .8em;
+    margin-bottom: 20px;
+}
+
 /*
 ===================================
 Footer Section
 ==================================
 */
-footer{
- display: flex;
- align-self: center;
- justify-content: flex-end;
- width: 80%;
-}
-
 .footer{
     display: flex;
+    width: 100%;
     justify-content: center;
+}
+
+.footer-content{
+    display: flex;
+    width: 69%;
+    justify-content: flex-end;
+    margin: 40px 0px;
+}
+
+.nav-link{
+    margin: 0px 10px;
 }
