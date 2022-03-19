@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+html {
+    background-color: #d8c5f6;
+}
 /*
 ==================================
 This the first Header Section where we have a navbar inside 
@@ -8,6 +11,13 @@ aligned using flex-box
 ==================================
 
 */
+h2{
+   color: #46325D;
+}
+h4{
+    color: #46325D;
+ }
+ 
 body{
     display: grid;
 }
@@ -30,7 +40,7 @@ body{
 }
 
 .nav-container{
-    background-color: #007fff;
+    background-color: #2877D1;
     position: fixed;
     width: 100%;
 }
@@ -56,6 +66,7 @@ Using flex-box centering things here
     flex-direction: column;
     align-items: center;
     margin-top: 100px;
+    
 }
 
 .form-container{
@@ -70,6 +81,7 @@ Using flex-box centering things here
 .form-container form label{
     text-align: center;
     font-size: 40px;
+    color: #46325D;
 }
 .form-container form label,input{
     margin-top: 10px;
@@ -121,6 +133,7 @@ Features Section here
 
 .icon{
     font-size: 45px;
+    color: #2877D1;
 }
 
 .desc{
@@ -154,6 +167,7 @@ Pricing Card Section
     border: 5px solid beige;
     border-radius: 10%; 
     font-size: 1.1em;
+    background-color: whitesmoke;
 }
 
 .pricing .card-container .card ol{
@@ -171,6 +185,7 @@ Pricing Card Section
 .form-container form label, input{
     font-size: .8em;
     margin-bottom: 20px;
+    color: green;
 }
 
 /*
